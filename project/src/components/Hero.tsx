@@ -69,14 +69,18 @@ const Hero = () => {
                 <h3 className="text-lg font-semibold text-white">Current Position</h3>
               </div>
               <div className="text-gray-200">
-                <p className="font-semibold mb-1">Solutions Developer</p>
+                <p className="font-semibold mb-1">Solutions Developer at <a href='https://www.incentius.com/' className='text-blue-500'>Incentius</a></p>
                 <p className="text-sm text-gray-300 mb-2">June 2024 — Present</p>
                 <ul className="list-disc list-inside text-sm space-y-2">
-                  <li>Full-time position after successful internship completion</li>
-                  <li>Developing frontend and backend solutions using React.js, Vue.js, Flask, SQL, and Node.js</li>
-                  <li>Leading critical projects with focus on performance and functionality</li>
-                  <li>Managing client communications and requirement gathering</li>
-                  <li>Implementing version control best practices with GitHub</li>
+                  <li>Successfully delivered tasks on time by understanding client production, QA, and development environments.</li>
+                  <li>Interacted with clients daily to gather requirements and took ownership of assigned tasks.</li>
+                  <li>Worked closely with cross-functional teams, ensuring smooth collaboration.</li>
+                  <li>Engaged with other teams to understand different projects and learn from senior developers.</li>
+                <li>Gained hands-on experience with Git and GitHub for version control.Experience with data visualization tools (Recharts, Chart.js,,Echarts)</li> 
+                <li>Developing frontend and backend solutions using React.js, Vue.js, Flask, SQL, and Node.js,Pinia Store in Vue js,Redux for State Management</li>
+                <li>Building responsive web applications with a focus on user experience and performance</li>
+                <li>Creating RESTful APIs and integrating third-party services to enhance application functionality</li>
+                <li>Writing clean, maintainable code and following best practices for software development</li>
                 </ul>
               </div>
             </motion.div>
@@ -123,7 +127,7 @@ const Hero = () => {
               </div>
             </motion.div> */}
 
-            <motion.div 
+            {/* <motion.div 
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.7 }}
@@ -162,7 +166,7 @@ const Hero = () => {
                 >
                   <Linkedin className="w-6 h-6" />
                 </motion.a>
-                {/* <motion.a
+                <motion.a
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   href="mailto:nareshaitla1122@gmail.com"
@@ -170,9 +174,9 @@ const Hero = () => {
                 >
                   <Send className="w-5 h-5 mr-2" />
                   Hire Me
-                </motion.a> */}
+                </motion.a>
               </div>
-            </motion.div>
+            </motion.div> */}
           </motion.div>
           <motion.div
             initial={{ opacity: 0, x: 50 }}

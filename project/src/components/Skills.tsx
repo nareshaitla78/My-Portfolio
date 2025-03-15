@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 const skillCategories = [
   {
     title: 'Frontend',
-    skills: ['React.js', 'Vue.js', 'JavaScript', 'Tailwind CSS', 'Next.js', 'Quasar','CSS','HTML'],
+    skills: ['React.js', 'Vue.js', 'JavaScript', 'Tailwind CSS', 'Next.js', 'Quasar','CSS','HTML','Bootstrap','redux','context Api'],
   },
   {
     title: 'Backend',
@@ -17,6 +17,11 @@ const skillCategories = [
   {
     title: 'Tools & Others',
     skills: ['Git', 'GitHub', 'Data Structures', 'Algorithms', 'Operating Systems', 'Networking'],
+  },
+  {
+    title: 'Deployment',
+    skills: ['Heroku', 'Netlify', 'Vercel', 'AWS', 'Docker'],
+    // skills: ['Git', 'GitHub', 'Data Structures', 'Algorithms', 'Operating Systems', 'Networking'],
   },
 ];
 
