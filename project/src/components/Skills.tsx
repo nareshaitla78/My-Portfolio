@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 const skillCategories = [
   {
     title: 'Frontend',
-    skills: ['React.js', 'Vue.js', 'JavaScript', 'Tailwind CSS', 'Next.js', 'Quasar'],
+    skills: ['React.js', 'Vue.js', 'JavaScript', 'Tailwind CSS', 'Next.js', 'Quasar','CSS','HTML'],
   },
   {
     title: 'Backend',
