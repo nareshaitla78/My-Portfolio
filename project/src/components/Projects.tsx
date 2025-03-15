@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { Github, Link as LinkIcon } from 'lucide-react';
 import ledflex from '../assets/ledflex.png';
 import emojigame from '../assets/emojigame.png';
+import contact from '../assets/contact.png';
 const projects = [
   {
     name: 'User Authentication System',
@@ -31,11 +32,28 @@ const projects = [
   {
     name: 'Self-Registration Form',
     description: 'Dynamic registration form with validation and backend integration.',
-    technologies: ['React.js', 'Tailwind CSS','Flask'],
+    technologies: ['React.js', 'Tailwind CSS','Flask','Redux for state management'],
     github: 'https://github.com/nareshaitla78/MOSIP-Self-Registration-Form',
     live: 'https://selfregistrationform.netlify.app/',
     image: 'https://images.unsplash.com/photo-1512486130939-2c4f79935e4f?w=500&h=300&fit=crop'
   },
+  {
+    name: 'Constact Profile',
+    description: 'The user can add there contact details and save in local storage and he can do CRUD Operations like Updating ,Deleting and Adding.',
+    technologies: ['React.js', 'Tailwind CSS','local storage'],
+    github: 'https://github.com/nareshaitla78/Contact-Profile',
+    live: 'https://contactprofiile.ccbp.tech/',
+    image:  contact
+  },
+  {
+    name: 'Employee Management System',
+    description: 'In this Project we can see the Employee Details According to the repestive company and here we can add New Employee Deatails.',
+    technologies: ['Vue js', 'Tailwind CSS','python Flask','pina store'],
+    github: 'https://github.com/nareshaitla78/Employee-Management-System',
+    live: '',
+    image:  'https://desktrack.timentask.com/blog/wp-content/uploads/2022/07/Employee-Management-System.png'
+  },
+
 ];
 
 const Projects = () => {
