@@ -4,6 +4,7 @@ import { Github, Link as LinkIcon } from 'lucide-react';
 import ledflex from '../assets/ledflex.png';
 import emojigame from '../assets/emojigame.png';
 import contact from '../assets/contact.png';
+import userDashBoard from '../assets/userDashboard.png'
 const projects = [
   {
     name: 'User Authentication System',
@@ -28,6 +29,14 @@ const projects = [
     github: 'https://github.com/nareshaitla78/Homepage-Design-for-LEDFlex',
     live: 'https://ledflexgroup.netlify.app/',
     image: ledflex
+  },
+  {
+    name: 'User Dashboard',
+    description: 'In this Project I have added Pie chart,Bar Chart,Line Chart and User Deatils.',
+    technologies: ['React.js', 'reCharts','lucide-react'],
+    github: 'https://github.com/nareshaitla78/UserDashBoard',
+    live: 'https://user-dash-board-vd1d.vercel.app/',
+    image: userDashBoard
   },
   {
     name: 'Self-Registration Form',
